@@ -1,11 +1,8 @@
-# profesor: Osvaldo Ojeda
+# FINAL TP2
 
-# FINAL TP2, ZODDA Gianmarco
+# Profesor: Osvaldo OJEDA
+# Alumno: Gianmarco  ZODDA
 
-
-## 🚀 Descripción
-
-MiProyectoNode es una aplicación que [explica brevemente qué hace el proyecto, por ejemplo: "permite gestionar tareas, realizar consultas a una API, etc."].
 
 ## 🛠️ Tecnologías
 
@@ -21,3 +18,11 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/GianmarcoZodda/BE-TP2-FINAL-ZODDA-GIANMARCO.git
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+
+3. Ejecuta el proyecto:
+   ```bash
+   Abre la terminar desde VS Code y escribe el comando: npm run dev
