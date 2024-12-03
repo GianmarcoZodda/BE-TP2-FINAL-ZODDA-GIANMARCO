@@ -26,3 +26,33 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 3. Ejecuta el proyecto:
    ```bash
    Abre la terminar desde VS Code y escribe el comando: npm run dev
+
+
+##  AYUDA
+
+crear juego
+POST: http://localhost:su_puerto/create
+
+{
+    "nombre": "ajedrez",
+    "categoria": "estrategia",
+    "precio": 10,
+    "stock": 1
+}
+
+listar juegos
+http://localhost:su_puerto/get
+
+
+vender
+http://localhost:3000/vender
+
+{
+    "id": 1,
+    "cantidad": 2
+}
+
+agregar los json en el body de la request
+
+
+

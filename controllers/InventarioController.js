@@ -47,17 +47,8 @@ class InventarioController {
       return res.status(422).json(errors.CantidadInvalida);
     }
 
-    const venta = this.inventarioService.registrarVentaService(id, cantidad);
+    const venta = await this.inventarioService.registrarVentaService(id, cantidad);
     res.status(201).json(venta); 
-    }catch(error){
-      res.status(400).json({ mensajeError: error.message });
-    }
-  }
-  
-  listarInventario = async() => {
-    try{
-      const inventario = await this.inventarioService.listarInventarioService();
-      res.status(200).json(inventario);
     }catch(error){
       res.status(400).json({ mensajeError: error.message });
     }

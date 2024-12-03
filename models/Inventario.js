@@ -26,9 +26,6 @@ class Inventario {
         return venta;
       }
 
-      listarInventario = async() => {
-        return this.inventario;
-      }
   }
   
   export default Inventario;

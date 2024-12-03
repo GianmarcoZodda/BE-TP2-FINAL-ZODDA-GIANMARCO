@@ -82,14 +82,6 @@ class InventarioService {
     }
   }
 
-  listarInventarioService = async() => {
-    try{
-      return this.inventarioModel.listarInventario();
-    }catch(error){
-      throw error;
-    }
-  };
-
 
   }
 
